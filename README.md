@@ -65,6 +65,8 @@ A list of all the commits I made related to the project can be found [here](http
   - [7538ae5](https://github.com/synfig/synfig/pull/1595/commits/7538ae5b9de8f0fa9e880512f1910dbcda924d17) - Fixed Magick NoEncodeDelegateForThisImageFormat issues on MSYS build
 - [#1644](https://github.com/synfig/synfig/pull/1644) - Removed README-CMake.md and linked CMake documentation in README.md.
   - [7ab6d6d](https://github.com/synfig/synfig/pull/1644/commits/7ab6d6d3f54e7eff4534cbed63b13dee6854ca4b) - Removed README-CMake.md and linked CMake documentation in README.md
+- [#1646](https://github.com/synfig/synfig/pull/1646) - Changes for successful CMake configuration using MSVS 2019 and vcpkg.
+  - [9d14d10](https://github.com/synfig/synfig/pull/1646/commits/9d14d102175e6f7c611192373f2ff432c4b5eb8e) - Changes for successful CMake configuration using MSVS 2019 and vcpkg.
 
 **synfig-docs-dev**
 - [#53](https://github.com/synfig/synfig-docs-dev/pull/53) - [CMake] Added documentation for CMake.
@@ -75,8 +77,13 @@ A list of all the commits I made related to the project can be found [here](http
 ## What's Left 
 
 The following tasks are still left:
+- Full *vcpkg* support for Windows builds.
+
+  I planned on adding a full support for building Synfig using MSVS 2019 and vcpkg but it is not ready yet, because part of the Synfig code now cannot be compiled with MSVC compiler and requires adaptation from other developers.
+
 - [#1630](https://github.com/synfig/synfig/pull/1630) - [CMake] MacOS app and DMG installer.
-- [#1646](https://github.com/synfig/synfig/pull/1646) - Changes for successful CMake configuration using MSVS 2019 and vcpkg.
+  
+  This was something that was decided to be worked upon during the coding period and it is yet to be reviewed.
 
 ## Experience
 
